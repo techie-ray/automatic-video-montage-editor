@@ -1,7 +1,7 @@
 # Automatic Video Montage Editor
 This python program automatically create a music video montage by extracting and combining randomly selected videos. You can specify the duration of the montage and the number of videos contained in the montage.
 
-See video demo at 
+See video demo at https://www.youtube.com/watch?v=eZiSFO_i9UM&ab_channel=techie_ray
 
 ## PREREQUISITTES
 * Install moviepy (see https://pypi.org/project/moviepy/ for installation instructions)
