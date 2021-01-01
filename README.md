@@ -1,5 +1,7 @@
-# automatic-video-montage-editor
+# Automatic Video Montage Editor
 This python program automatically create a music video montage by extracting and combining randomly selected videos. You can specify the duration of the montage and the number of videos contained in the montage.
+
+See video demo at 
 
 ## PREREQUISITTES
 * Install moviepy (see https://pypi.org/project/moviepy/ for installation instructions)
@@ -15,7 +17,9 @@ This python program automatically create a music video montage by extracting and
   * If the ```--samples``` and ```--duration``` are not specified, the default will be 10 video samples and 10 seconds respectively. 
   * __NOTE that the number of samples specified must be lower than or equal to the number of videos in the Video Folder.__ If you have less than 10 video samples in the Video Folder, then you can change the default samples value at line 49.
   
-* On execution, the program will ask for the folder address (absolute path) of the Video Folder and the Music Folder.
+* On execution, the program will ask for the folder address (absolute path) of the Video Folder and the Music Folder. For example
+  * Enter folder address of video samples: ```C:\Users\Ray Sun\Desktop\tutorial\samples```
+  * Enter folder address of music samples: ```C:\Users\Ray Sun\Desktop\tutorial\music```
 * Depending on the specified duration, the program will then take around 1 minute to output the montage. The montage will be automatically saved in the Project Folder
  
 
